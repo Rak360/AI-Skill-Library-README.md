@@ -13,6 +13,12 @@ A practical, modular library for digital marketing and creative production: ad c
 - [Creative Production Workflow](skills/creative-production-workflow.md)
 - [Open-source resource catalog](resources/resource-catalog.md)
 
+## Setup guide
+
+- [Setup, safe installation, and publication guide](docs/setup-guide.md)
+- [Marketing image prompt templates](templates/image-prompt-templates.md)
+- [Short-form video script template](templates/short-form-video-script-template.md)
+
 ## Recommended open-source resources
 
 ### Images and creative production
