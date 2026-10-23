@@ -18,6 +18,8 @@ A practical, modular library for digital marketing and creative production: ad c
 - [Setup, safe installation, and publication guide](docs/setup-guide.md)
 - [Prioritized tool setup and test plan](docs/prioritized-tool-setup-and-test-plan.md)
 - [Android-first digital marketing setup plan](docs/android-first-setup-plan.md)
+- [Android-first weekly marketing workflow](docs/android-first-weekly-workflow.md)
+- [Content tracker CSV template](templates/content-tracker-template.csv)
 - [Marketing image prompt templates](templates/image-prompt-templates.md)
 - [Short-form video script template](templates/short-form-video-script-template.md)
 
