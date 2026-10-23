@@ -32,3 +32,16 @@
 - The roadmap was fetched from GitHub after commit to verify publication.
 - It does not assert that any desktop software has been installed.
 - Hardware-heavy local AI tools remain pending until the target device's OS, RAM, GPU/VRAM, and disk capacity are known.
+
+
+## 2026-10-23 — Android-first setup plan
+
+### Changes published
+- Added `docs/android-first-setup-plan.md` for the user's Android device profile (8 GB RAM or less, integrated graphics).
+- Prioritized low-friction mobile workflows, included setup sources and acceptance tests, and marked beta open-source editors as optional trials.
+- Added explicit privacy, permissions, medical-claim review, and non-sensitive test-data safeguards.
+- Linked the Android-first plan from the README.
+
+### Validation and limitations
+- The new guide, README, and log were fetched from GitHub after commit.
+- No app was installed on the user's phone; device version, storage, and installed apps remain unknown.
