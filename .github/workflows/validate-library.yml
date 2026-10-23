@@ -1,0 +1,42 @@
+name: Validate creative skill library
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdown-check:
+    name: Check Markdown files and required folders
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Verify required files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f README.md
+          test -f skills/video-script-writer.md
+          test -f skills/creative-image-prompt-engineer.md
+          test -f skills/performance-ad-creative-strategist.md
+          test -f skills/medical-content-reviewer.md
+          test -f skills/creative-production-workflow.md
+          test -f resources/resource-catalog.md
+          echo "Required library files are present."
+      - name: Check for empty Markdown files
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r -d '' file; do
+            if ! grep -q '[^[:space:]]' "$file"; then
+              echo "Empty Markdown file: $file"
+              exit 1
+            fi
+          done < <(find . -type f -name '*.md' -not -path './.git/*' -print0)
+          echo "All Markdown files contain content."
