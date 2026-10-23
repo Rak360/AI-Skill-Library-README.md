@@ -45,3 +45,15 @@
 ### Validation and limitations
 - The new guide, README, and log were fetched from GitHub after commit.
 - No app was installed on the user's phone; device version, storage, and installed apps remain unknown.
+
+
+## 2026-10-23 — Low-storage mobile workflow
+
+### Changes published
+- Added `docs/android-first-weekly-workflow.md` with a lightweight daily and weekly routine designed for a low-storage Android device.
+- Added `templates/content-tracker-template.csv` with non-sensitive production tracking columns.
+- Linked both from the README.
+
+### Safety notes
+- The tracker is a template only; do not put patient details, lead personal data, or confidential information into this public repository.
+- No new app was installed. The workflow prioritizes browser tools and existing apps until storage is freed.
