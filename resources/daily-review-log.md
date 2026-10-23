@@ -20,3 +20,15 @@
 - GitHub Actions workflow file was verified in the repository, but a successful workflow run has not yet been confirmed.
 - No third-party software was installed on the user's device, and no external social/ad account was connected.
 - Future reviews should make a commit only when there is a meaningful, verified improvement; do not create cosmetic daily commits.
+
+
+## 2026-10-23 — Prioritized setup and test plan
+
+### Changes published
+- Added `docs/prioritized-tool-setup-and-test-plan.md` with P0–P4 priorities, official setup routes, acceptance tests, safety/licensing checks, a scorecard, and staged adoption status.
+- Linked the plan from the repository README.
+
+### Validation and limitations
+- The roadmap was fetched from GitHub after commit to verify publication.
+- It does not assert that any desktop software has been installed.
+- Hardware-heavy local AI tools remain pending until the target device's OS, RAM, GPU/VRAM, and disk capacity are known.
