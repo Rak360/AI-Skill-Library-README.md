@@ -67,3 +67,42 @@ LibreCuts is currently beta; treat it as an optional trial, not the only product
 - [ ] Consider automation only after the manual workflow is stable.
 
 This document is a setup plan; it does not claim that any app has been installed on the user's device.
+
+
+## Low-storage mode: under 5 GB free
+
+**Current device profile:** Android 13 or newer; less than 5 GB free storage; integrated graphics.
+
+### Before installing anything
+1. Do not install a video editor, subtitle tool, or open-source APK until you have checked free space again.
+2. Open **Settings → Storage** and identify the largest categories. Labels vary by Android manufacturer.
+3. In **Files by Google**, review the cleanup suggestions. Delete only items you recognize and no longer need; verify backups before deleting photos/videos.
+4. In **Settings → Apps → [app] → Storage & cache → Clear cache**, clear cache for apps with unusually large temporary data. Do **not** tap Clear storage/data unless you understand that it can remove local app data and sign-in state.
+5. Remove old exported videos, duplicate downloads, offline media, and unused apps only after reviewing them. Do not delete unknown folders or app/system files.
+6. If possible, move original media to an approved cloud account or computer and verify the copies open before removing local copies.
+7. Restart the phone and re-check free space.
+
+Google's official guidance: https://support.google.com/android/answer/7431795 and Files by Google: https://support.google.com/files/answer/9848742.
+
+### Installation gate
+- **Below 2 GB free:** do not install a new creative app. Use the browser for lightweight tasks and free space first.
+- **2–5 GB free:** keep installed apps to a minimum. Use browser-based design and AI, edit only short 720p/1080p clips, and keep offline downloads limited.
+- **After reaching at least 5–8 GB free:** consider one app at a time; this is a practical buffer recommendation, not an Android requirement. Re-check the actual Play Store download size and extra working space first.
+
+### Low-storage test sequence
+1. Use ChatGPT and the existing GitHub templates in the browser; confirm a prompt/script can be copied and used without downloading large files.
+2. Open Canva in browser or its already-installed app; create one small non-sensitive draft. Do not install the app solely for this test while storage is constrained.
+3. Export one short test image only if there is enough free space; verify it appears in the intended folder.
+4. Test video editing only after confirming enough free space for both source footage and the export. Start with a 10–20 second 720p sample; move to 1080p only if the phone remains stable.
+5. Record app name, available space before/after, export time, crashes/heat, and result quality.
+6. If the phone heats up, crashes, or reports insufficient space, stop the test; do not repeatedly retry large exports.
+
+### Do not do these
+- Do not download APKs from random sites or install several editors at once.
+- Do not delete backed-up-looking files until you verify the backup and can open it.
+- Do not clear app storage/data for WhatsApp, Drive, Canva, or other work apps as a first troubleshooting step.
+- Do not attempt to run ComfyUI, InvokeAI, Kdenlive, Shotcut, or local Python AI models directly on this phone as if they were normal Android apps.
+- Do not upload patient records, identifiable clinical photos, lead lists, passwords, or tokens to public AI tools.
+
+### Current next action
+Free and verify storage first. Then test the existing browser workflow; install no new app until the device has adequate free space and a clear need for that app.
