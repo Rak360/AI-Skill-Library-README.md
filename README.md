@@ -9,9 +9,13 @@ A practical, modular library for digital marketing and creative production: ad c
 - [Video Script Writer](skills/video-script-writer.md)
 - [Creative Image Prompt Engineer](skills/creative-image-prompt-engineer.md)
 - [Performance Ad Creative Strategist](skills/performance-ad-creative-strategist.md)
+- [Meta / Facebook Ad Copywriter](skills/meta-facebook-ad-copywriter.md)
+- [Bangla / English Marketing Content Writer](skills/bangla-english-content-writer.md)
+- [Creative Testing Planner](skills/creative-testing-planner.md)
 - [Medical Content Reviewer](skills/medical-content-reviewer.md)
 - [Creative Production Workflow](skills/creative-production-workflow.md)
 - [Open-source resource catalog](resources/resource-catalog.md)
+- [Marketing Creative Repository Review — 2026-10-24](resources/marketing-creative-repository-review-2026-10-24.md)
 
 ## Setup guide
 
