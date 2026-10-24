@@ -38,6 +38,10 @@ A practical, modular library for digital marketing and creative production: ad c
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) — image restoration/upscaling
 - [Krita AI Diffusion](https://github.com/Acly/krita-ai-diffusion) — AI-assisted Krita workflows
 
+### Social publishing and scheduling
+- [TryPost](https://github.com/trypostit/trypost) — social scheduler with MCP and REST API options; AGPL-3.0. Review current channel support, hosted-service terms, OAuth scopes, and AGPL obligations before adoption.
+- [Postiz](https://github.com/gitroomhq/postiz-app) — social scheduling and analytics; AGPL-3.0. Review current security advisories and use a fixed release before deployment.
+
 ### Video and subtitles
 - [Kdenlive](https://github.com/KDE/kdenlive) — open-source video editor
 - [Shotcut](https://github.com/mltframework/shotcut) — cross-platform video editor
