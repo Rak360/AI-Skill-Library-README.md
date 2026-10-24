@@ -73,3 +73,17 @@
 - Postiz v2.25.2 release notes mention a security fix; check the upstream advisory before deployment.
 - No third-party tool was installed and no social/ad account was connected.
 - A separate GitHub repository was not created because the available connector actions do not expose repository creation; changes are in this existing repository.
+
+
+## 2026-10-24 — ChatGPT marketing app and connector setup guide
+
+### Changes published
+- Added `docs/chatgpt-marketing-apps-setup.md` covering Canva, ChatGPT Ads Manager, Metricool, Runway, and Windsor.ai.
+- Included current app-catalog status, intended use, first acceptance tests, account permission review, privacy, and live-action approval safeguards.
+- Linked the guide from README.
+- Updated the daily review automation prompt to include ChatGPT apps/connectors and to distinguish available, installed, and connected states.
+
+### Validation and limitations
+- Guide and README were fetched from GitHub after publication.
+- Canva appeared installed in the app catalog. Ads Manager, Metricool, Runway, and Windsor.ai were offered as connection candidates; their accounts are not confirmed connected.
+- No third-party account was connected and no live ad/post was changed or published in this step.
