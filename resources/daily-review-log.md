@@ -57,3 +57,19 @@
 ### Safety notes
 - The tracker is a template only; do not put patient details, lead personal data, or confidential information into this public repository.
 - No new app was installed. The workflow prioritizes browser tools and existing apps until storage is freed.
+
+
+## 2026-10-24 — Marketing creative development skills and repository review
+
+### Changes published
+- Added a Meta/Facebook ad copywriting skill.
+- Added a Bangla/English marketing content-writing skill.
+- Added a creative testing planner for paid-social campaigns.
+- Added a dated repository review covering marketing skills, social scheduling, analytics, visual generation and video automation.
+- Linked the new skills and review from README and resource catalog.
+
+### Evidence and limitations
+- Current repository pages, READMEs, release notes and license statements were reviewed for the listed candidates.
+- Postiz v2.25.2 release notes mention a security fix; check the upstream advisory before deployment.
+- No third-party tool was installed and no social/ad account was connected.
+- A separate GitHub repository was not created because the available connector actions do not expose repository creation; changes are in this existing repository.
