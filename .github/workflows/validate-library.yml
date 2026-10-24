@@ -25,9 +25,14 @@ jobs:
           test -f skills/video-script-writer.md
           test -f skills/creative-image-prompt-engineer.md
           test -f skills/performance-ad-creative-strategist.md
+          test -f skills/meta-facebook-ad-copywriter.md
+          test -f skills/bangla-english-content-writer.md
+          test -f skills/creative-testing-planner.md
           test -f skills/medical-content-reviewer.md
           test -f skills/creative-production-workflow.md
           test -f resources/resource-catalog.md
+          test -f resources/marketing-creative-repository-review-2026-10-24.md
+          test -f docs/chatgpt-marketing-apps-setup.md
           echo "Required library files are present."
       - name: Check for empty Markdown files
         shell: bash
