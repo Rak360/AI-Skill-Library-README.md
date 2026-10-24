@@ -11,6 +11,10 @@ This is an index, not a statement that every project is installed, fully free, o
 - Upscayl — https://github.com/upscayl/upscayl
 - Krita AI Diffusion — https://github.com/Acly/krita-ai-diffusion
 
+## Social publishing and scheduling
+- TryPost — https://github.com/trypostit/trypost (AGPL-3.0; MCP/REST; cloud and self-hosted options; evaluate account permissions and terms before use)
+- Postiz — https://github.com/gitroomhq/postiz-app (AGPL-3.0; check the current security advisory and fixed release before deployment)
+
 ## Video
 - Kdenlive — https://github.com/KDE/kdenlive
 - Shotcut — https://github.com/mltframework/shotcut
@@ -56,7 +60,6 @@ These are curated candidates based on a current popularity scan and direct repos
 - Limitations: star counts and trend rankings change rapidly; no full security audit, local installation, or production benchmark was performed.
 - Before adoption: inspect recent commits/releases, open issues, license, dependencies, model terms, hardware requirements, credential handling, and commercial-use rights.
 
-
 ## Marketing and social publishing reviewed — 2026-10-24
 
 - [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT; reusable copywriting, social, paid ads, ad-creative, analytics and conversion-tracking skills. Compatible coding-agent installation is documented upstream; this does not install into the ChatGPT Android app.
@@ -64,5 +67,11 @@ These are curated candidates based on a current popularity scan and direct repos
 - [PostHog/posthog](https://github.com/PostHog/posthog) — MIT expat except the `ee` directory with separate terms; analytics, funnels and experiments. Self-hosting is advanced; review session replay, consent, data redaction and retention.
 - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GPL-3.0 application; model and custom-node licenses differ. Desktop/server candidate only, not Android local.
 - [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — release v1.3.9 observed 2026-10-21; short-video automation candidate. Full license, dependency, provider and model checks remain required before adoption.
+- See [the dated review and caveats](marketing-creative-repository-review-2026-10-24.md).
 
-See [the dated review and caveats](marketing-creative-repository-review-2026-10-24.md).
+## Social publishing candidate checked — 2026-10-24
+
+- [trypostit/trypost](https://github.com/trypostit/trypost) — an AI-agent-oriented social scheduler with MCP and REST API options. Official repository metadata showed AGPL-3.0, 725 stars and 195 forks at review time, with a push on 2026-10-23; its latest GitHub release was v2.0.0 (published 2026-10-10).
+- **Why it matters:** possible future bridge between content drafting, approval queues and multi-channel publishing.
+- **Caveats:** AGPL-3.0 network-service obligations may matter for modified self-hosted deployments; review the current cloud terms, supported channels, API scopes, data retention and account permissions. No security audit or live-account test was performed.
+- **Decision:** shortlist for a non-sensitive trial only. Do not connect production accounts or publish live content until permissions and approval controls are verified.
