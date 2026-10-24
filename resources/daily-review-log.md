@@ -87,3 +87,22 @@
 - Guide and README were fetched from GitHub after publication.
 - Canva appeared installed in the app catalog. Ads Manager, Metricool, Runway, and Windsor.ai were offered as connection candidates; their accounts are not confirmed connected.
 - No third-party account was connected and no live ad/post was changed or published in this step.
+
+
+## 2026-10-24 — Social-publishing candidate and CI coverage improvement
+
+### Research
+- Checked the official TryPost repository metadata and release page. It showed AGPL-3.0, 725 stars and 195 forks at review time, a push on 2026-10-23, and latest release v2.0.0 published 2026-10-10.
+- Evaluated its MCP/REST publishing approach as a potential future workflow bridge; no account or production deployment was tested.
+- Confirmed the latest previously recorded GitHub Actions run completed successfully before this change.
+
+### Changes published
+- Added TryPost to the resource catalog and dated repository review with its license, activity, setup and approval-gate caveats.
+- Added a social-publishing section to the README.
+- Expanded CI required-file checks to include the Meta ad copywriter, Bangla/English writer, creative testing planner, ChatGPT connector guide, and dated review.
+
+### Safety and limitations
+- TryPost remains an evaluation candidate, not installed or connected.
+- AGPL-3.0 network-service obligations and hosted terms need review before deployment.
+- No production social/ad account was connected, no live content was published, and no patient or customer data was added.
+- The new workflow run must be checked after the commit; its success is not assumed.
