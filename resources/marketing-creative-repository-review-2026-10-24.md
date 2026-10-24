@@ -23,6 +23,15 @@ This is a discovery and triage record, not a security audit. Popularity is a dis
 - Commercial use: AGPL obligations can affect modified/network-served deployments; obtain appropriate legal review for intended use.
 - Decision: watchlist for a future server or managed deployment, not an immediate phone install.
 
+### trypostit/trypost — newly checked
+- Source: https://github.com/trypostit/trypost
+- Use: social scheduling and publishing through a web composer, MCP and REST API; upstream README describes support for multiple social platforms and agent workflows.
+- Official GitHub metadata checked on 2026-10-24: AGPL-3.0 license, 725 stars, 195 forks, repository pushed 2026-10-23. Latest release: v2.0.0, published 2026-10-10.
+- Practical fit: could connect content drafting and review queues to multi-channel publishing. A hosted option may reduce local setup, but current plan/pricing and exact channel capabilities must be checked before selection.
+- Setup/security: no installation, account connection, security audit, or production test was performed. Review OAuth scopes, token handling, workspace access, approval gates, retention, and official cloud terms.
+- License: AGPL-3.0 allows commercial use subject to its terms; network use of a modified version can trigger source-sharing obligations. Obtain legal review for modified deployments.
+- Decision: shortlist for a non-sensitive test workspace only. Keep live posting and account changes behind explicit human approval.
+
 ## Analytics and experimentation: evaluate for web funnels
 
 ### PostHog/posthog
@@ -62,6 +71,6 @@ Use topic/star growth to discover candidates, then inspect actual repository fil
 ## Decisions on 2026-10-24
 1. Adopt three locally written skills for Meta ad copy, Bangla/English content, and creative testing.
 2. Link Marketingskills as an external reference, not claim it is installed in ChatGPT.
-3. Keep Postiz, PostHog, ComfyUI and MoneyPrinterTurbo as staged evaluation candidates with the caveats above.
+3. Keep Postiz, TryPost, PostHog, ComfyUI and MoneyPrinterTurbo as staged evaluation candidates with the caveats above.
 4. Do not install software on the user's phone; storage remains below 5 GB.
 5. Do not create a separate GitHub repository in this run because the available GitHub connector actions do not expose a repository-creation operation. Changes are being organized in the existing repository.
