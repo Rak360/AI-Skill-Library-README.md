@@ -56,3 +56,13 @@ These are curated candidates based on a current popularity scan and direct repos
 - Limitations: star counts and trend rankings change rapidly; no full security audit, local installation, or production benchmark was performed.
 - Before adoption: inspect recent commits/releases, open issues, license, dependencies, model terms, hardware requirements, credential handling, and commercial-use rights.
 
+
+## Marketing and social publishing reviewed — 2026-10-24
+
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — MIT; reusable copywriting, social, paid ads, ad-creative, analytics and conversion-tracking skills. Compatible coding-agent installation is documented upstream; this does not install into the ChatGPT Android app.
+- [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app) — AGPL-3.0; social scheduling and analytics. Release v2.25.2 (2026-10-23) notes a security fix for PSA-2026-JNXM56; review the advisory and use a fixed current release before any deployment. Self-hosted stack is not suitable for direct Android install.
+- [PostHog/posthog](https://github.com/PostHog/posthog) — MIT expat except the `ee` directory with separate terms; analytics, funnels and experiments. Self-hosting is advanced; review session replay, consent, data redaction and retention.
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — GPL-3.0 application; model and custom-node licenses differ. Desktop/server candidate only, not Android local.
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) — release v1.3.9 observed 2026-10-21; short-video automation candidate. Full license, dependency, provider and model checks remain required before adoption.
+
+See [the dated review and caveats](marketing-creative-repository-review-2026-10-24.md).
