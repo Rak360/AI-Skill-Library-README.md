@@ -106,3 +106,22 @@
 - AGPL-3.0 network-service obligations and hosted terms need review before deployment.
 - No production social/ad account was connected, no live content was published, and no patient or customer data was added.
 - The new workflow run must be checked after the commit; its success is not assumed.
+
+
+## 2026-10-25 — Marketing skills and medical-aesthetic ad safety
+
+### Research
+- Rechecked the official `coreyhaines31/marketingskills` repository, MIT license, and `VERSIONS.md`; the latest listed release line is 2.13.0 (2026-10-19), including a dedicated conversion-tracking skill.
+- Rechecked the official `m-bain/whisperX` repository and BSD-2-Clause license. It remains useful for word-level subtitle timing and speaker labels, but its Python/PyTorch/model stack is not suitable for direct installation on the user's low-storage Android device.
+- Reviewed Meta's official Advertising Standards hub as the policy starting point. Because live policy pages may change and were not fully retrievable in this run, the checklist explicitly requires checking current policy wording before launch.
+
+### Changes published
+- Added `docs/medical-aesthetic-meta-ads-preflight.md` covering neutral claims, adult targeting where required, patient consent, authentic before/after media, landing-page consistency, privacy, tracking, and clinical/policy sign-off.
+- Linked the checklist from README and added dated source notes to the resource catalog.
+- Added the checklist to the CI required-file check.
+
+### Validation and limitations
+- The repository is public and the connected GitHub integration has push permission.
+- After this commit, check the GitHub Actions result; do not assume CI passes until the run is completed.
+- No third-party software was installed; no ChatGPT app was newly connected; no Facebook/Instagram account, live campaign, or post was modified.
+- The scheduled run's push/email notifications are currently unavailable in this run context; the report is delivered here.
