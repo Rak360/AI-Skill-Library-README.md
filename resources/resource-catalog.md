@@ -75,3 +75,12 @@ These are curated candidates based on a current popularity scan and direct repos
 - **Why it matters:** possible future bridge between content drafting, approval queues and multi-channel publishing.
 - **Caveats:** AGPL-3.0 network-service obligations may matter for modified self-hosted deployments; review the current cloud terms, supported channels, API scopes, data retention and account permissions. No security audit or live-account test was performed.
 - **Decision:** shortlist for a non-sensitive trial only. Do not connect production accounts or publish live content until permissions and approval controls are verified.
+
+
+## Marketing skill and transcription update — 2026-10-25
+
+- [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) — official repository currently shows MIT licensing and active maintenance. Its `VERSIONS.md` records the 2.13.0 update dated 2026-10-19, including a dedicated `conversion-tracking` skill (1.0.0), while ads, analytics, copywriting, social and ad-creative skills have recent version entries. **Use:** compare upstream changes with this library and selectively adapt workflows; do not assume upstream skills are installed into ChatGPT. Keep the MIT notice if copying substantial portions, and review each update before use.
+- [m-bain/WhisperX](https://github.com/m-bain/whisperX) — official repository shows BSD-2-Clause licensing, approximately 24.8k stars at review time, and current work on context-aware batching. **Use:** word-level timestamps and speaker labeling for subtitle workflows. **Constraint:** Python/PyTorch and model dependencies make it a desktop/server candidate, not a recommended Android installation on a low-storage device. Check the license/terms of any diarization or alignment models separately.
+- Added [Medical-aesthetic Meta ads preflight checklist](../docs/medical-aesthetic-meta-ads-preflight.md) to operationalize policy, claims, age, consent, landing-page and tracking checks. It is a review aid, not a guarantee of ad approval; verify the live Meta policy before launch.
+
+**Review limits:** This was a source/document review, not a security audit, benchmark, installation, or live-account test. No social accounts were connected and no ads or posts were changed.
