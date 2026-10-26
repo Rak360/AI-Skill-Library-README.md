@@ -125,3 +125,21 @@
 - After this commit, check the GitHub Actions result; do not assume CI passes until the run is completed.
 - No third-party software was installed; no ChatGPT app was newly connected; no Facebook/Instagram account, live campaign, or post was modified.
 - The scheduled run's push/email notifications are currently unavailable in this run context; the report is delivered here.
+
+
+## 2026-10-26 — Postiz critical security advisory
+
+### Research
+- Reviewed the GitHub Advisory Database entry published 2026-10-24 for CVE-2026-115931 / GHSA-h5r5-h782-vqvp (Critical, CVSS 9.9).
+- Checked official Postiz v2.25.2 release notes published 2026-10-23, which state that the release addresses PSA-2026-JNXM56, and the referenced fix commit restricting callable provider methods.
+- The advisory's affected/patched version fields remain unknown; no build is certified safe by this review.
+
+### Changes published
+- Added `docs/postiz-critical-security-advisory-2026-10-26.md` with evidence, risk, remediation guidance, and deployment hold.
+- Updated README, resource catalog, and dated repository review to flag the critical advisory.
+- Added the new security note to the CI required-file checks.
+
+### Safety and limitations
+- No Postiz installation, OAuth connection, production deployment, or live social publishing was performed.
+- If a user-operated instance may have been exposed, the guidance is to confirm the patched commit, rotate potentially exposed secrets/tokens after patching, and investigate logs.
+- The repository changes document the public advisory; they do not constitute a security audit.
