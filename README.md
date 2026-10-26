@@ -25,6 +25,7 @@ A practical, modular library for digital marketing and creative production: ad c
 - [Android-first weekly marketing workflow](docs/android-first-weekly-workflow.md)
 - [ChatGPT marketing apps and connector setup](docs/chatgpt-marketing-apps-setup.md)
 - [Medical-aesthetic Meta ads preflight checklist](docs/medical-aesthetic-meta-ads-preflight.md)
+- [Postiz critical security advisory review — 2026-10-26](docs/postiz-critical-security-advisory-2026-10-26.md)
 - [Content tracker CSV template](templates/content-tracker-template.csv)
 - [Marketing image prompt templates](templates/image-prompt-templates.md)
 - [Short-form video script template](templates/short-form-video-script-template.md)
