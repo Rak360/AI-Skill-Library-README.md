@@ -34,6 +34,7 @@ jobs:
           test -f resources/marketing-creative-repository-review-2026-10-24.md
           test -f docs/chatgpt-marketing-apps-setup.md
           test -f docs/medical-aesthetic-meta-ads-preflight.md
+          test -f docs/postiz-critical-security-advisory-2026-10-26.md
           echo "Required library files are present."
       - name: Check for empty Markdown files
         shell: bash
