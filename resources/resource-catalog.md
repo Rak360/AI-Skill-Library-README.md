@@ -13,7 +13,7 @@ This is an index, not a statement that every project is installed, fully free, o
 
 ## Social publishing and scheduling
 - TryPost — https://github.com/trypostit/trypost (AGPL-3.0; MCP/REST; cloud and self-hosted options; evaluate account permissions and terms before use)
-- Postiz — https://github.com/gitroomhq/postiz-app (AGPL-3.0; check the current security advisory and fixed release before deployment)
+- Postiz — https://github.com/gitroomhq/postiz-app (AGPL-3.0; **security hold for new deployments** pending confirmation of the fix for critical CVE-2026-115931 / PSA-2026-JNXM56; see [security review](../docs/postiz-critical-security-advisory-2026-10-26.md))
 
 ## Video
 - Kdenlive — https://github.com/KDE/kdenlive
@@ -84,3 +84,9 @@ These are curated candidates based on a current popularity scan and direct repos
 - Added [Medical-aesthetic Meta ads preflight checklist](../docs/medical-aesthetic-meta-ads-preflight.md) to operationalize policy, claims, age, consent, landing-page and tracking checks. It is a review aid, not a guarantee of ad approval; verify the live Meta policy before launch.
 
 **Review limits:** This was a source/document review, not a security audit, benchmark, installation, or live-account test. No social accounts were connected and no ads or posts were changed.
+
+
+## Security update — 2026-10-26
+
+- **Postiz:** GitHub published critical CVE-2026-115931 (CVSS 9.9) on 2026-10-24. The v2.25.2 release published 2026-10-23 says it addresses PSA-2026-JNXM56, and the referenced commit restricts provider-function execution; however, the advisory's affected/patched version fields remain unknown. Do not deploy based on version number alone. Review the [full security note](../docs/postiz-critical-security-advisory-2026-10-26.md) and verify the exact patched commit before use.
+- This is a source review, not a security audit. Postiz is not installed or connected in the user's ChatGPT or social accounts.
