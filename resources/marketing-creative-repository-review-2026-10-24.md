@@ -74,3 +74,11 @@ Use topic/star growth to discover candidates, then inspect actual repository fil
 3. Keep Postiz, TryPost, PostHog, ComfyUI and MoneyPrinterTurbo as staged evaluation candidates with the caveats above.
 4. Do not install software on the user's phone; storage remains below 5 GB.
 5. Do not create a separate GitHub repository in this run because the available GitHub connector actions do not expose a repository-creation operation. Changes are being organized in the existing repository.
+
+
+## Security follow-up — 2026-10-26: Postiz
+
+- GitHub published [CVE-2026-115931 / GHSA-h5r5-h782-vqvp](https://github.com/advisories/GHSA-h5r5-h782-vqvp) on 2026-10-24, Critical (CVSS 9.9). The report describes unintended provider-function calls that could expose server-readable files/secrets or stop the app.
+- Postiz v2.25.2 release notes dated 2026-10-23 state that the release addresses PSA-2026-JNXM56, and upstream commit [9383f5b](https://github.com/gitroomhq/postiz-app/commit/9383f5be4d310c346e33a3748a9a7ded64c96fed) restricts callable provider methods. However, the GitHub advisory still lists affected/patched versions as unknown, so this review does not certify any build as safe.
+- Decision: security hold for new deployments until the fix is confirmed in the exact build; if an exposed instance may have been affected, patch first, rotate potentially exposed secrets/tokens, and investigate logs/integration activity. See [the detailed security review](../docs/postiz-critical-security-advisory-2026-10-26.md).
+- No installation, account connection, or production test was performed.
